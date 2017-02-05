@@ -1,2 +1,5 @@
 When would you want to use a remote repository rather than keeping all your work local?
   Remote repository is required when the project is to be shared openly.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+	Pulling changes manually is advantageous because we pull only when changes are made on remote reository and not unnecessarily
