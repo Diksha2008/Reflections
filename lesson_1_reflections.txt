@@ -1,33 +1,42 @@
 How did viewing a diff between two versions of a file help you see the bug that
 was introduced?
 
-    Fill in your answer here
+    It helped to point a typo or errant changes made to the new file that lead to a bug.
+    Comparison becomes much easier.
 
 How could having easy access to the entire history of a file make you a more
 efficient programmer in the long term?
 
-    Fill in your answer here
+    This will allow programmers to experiment with code in different ways without worrying
+    as they will always have an previous version of code to backup on incase the programmer
+    is not satisfied with the changes made.
 
 What do you think are the pros and cons of manually choosing when to create a
 commit, like you do in Git, vs having versions automatically saved, like Google
 docs does?
 
-    Fill in your answer here
+    Pros:
+    Comitting manually allows us to create logical and meaningful checkpoints on which we can 
+    rely on if we need to replace the present version with some previous version.
+    Cons:
+    The changes made to the program could be lost due to some reasons before the code was manually 
+    comitted whereas if it were to be saved automatically we could access the lost code.
+
 
 Why do you think some version control systems, like Git, allow saving multiple
 files in one commit, while others, like Google Docs, treat each file separately?
 
-    Fill in your answer here
+    This is maybe because git saves a repositry of "code" which is interrelated with each other.A change in one file also affects the other whereas others like Google Docs the files are mostly independent of each other.
 
 How can you use the commands git log and git diff to view the history of files?
 
-    Fill in your answer here
+    git log views all the changes made to the repository and git diff give the difference between two commits.
 
 How might using version control make you more confident to make changes that
 could break something?
 
-    Fill in your answer here
+    Experiment with different features and stuff in my project witout worrying about the introduction of a bug that could potentially destroy the project.
 
 Now that you have your workspace set up, what do you want to try using Git for?
 
-    Fill in your answer here
+    I'll use it for saving different versions of android project I am working on while adding different features to it without worrying about not being able to restore to previous versions.
