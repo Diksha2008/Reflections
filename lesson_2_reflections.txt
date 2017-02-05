@@ -1,0 +1,12 @@
+What happens when you initialize a repository? Why do you need to do it?
+	When a repository is initialised a hidden file namely ".git" is created inside it with no commits.We need
+    this to track any commits to the repository which makes the debugging process easier.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+	Staging area contains all the files that needs to appear in a commit.It enables to define a commit in a better way.
+
+How can you use the staging area to make sure you have one commit per logical change?
+	We add only those files to the staging area to which we have made some logical change and hence only those files are comitted ,hence ensuring one commit per logical change.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	Branches may be useful in situations where we want to make some experimental changes to the project or create some different version of app.This keeps history organized and seperate from the original i.e. master branch.
