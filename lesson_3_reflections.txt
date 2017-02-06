@@ -8,3 +8,6 @@ Describe the differences between forks, clones, and branches. When would you use
 	Forking is used to get a copy of repository on github on the github servers itself.
 	Cloning is used to get a copy of repository on local machine or github onto the local machine.
 	Branching is used when one wants to change context or add/experiment with new features,then a branch different from master branch is created.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+	If we have last known state of the remote stored locally then we can update the local copy by merging the two states.(origin/master and master)
